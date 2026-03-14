@@ -38,10 +38,10 @@
     position: absolute;
     cursor: pointer;
     bottom: 0;
-    border: 0;
+    border: 2px solid #c50d0d; 
     border-radius: 30px;
     background-color: #FFFFFF;
-    color: #1E1E1E;
+    color: #c50d0d;            
     font-family: 'Do Hyeon', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -50,4 +50,8 @@
     margin-top: 50px;
     font-size: 25px;
     line-height: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    outline: none;                              
+    transition: all 0.3s ease-in-out;          
+}
 }
