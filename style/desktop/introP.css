@@ -77,7 +77,7 @@
     width: min(80%, 340px);
     height: 110px;
     margin: 2rem 0 0 0;
-    font-size: clamp(34px, 4vw, 25px);
+    font-size: clamp(34px, 4vw, 34px);
     line-height: 60px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     outline: none;
