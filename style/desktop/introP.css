@@ -3,6 +3,7 @@
     opacity: 0.8;
     animation: rotate_img 180s linear infinite;
     width: calc(1000px + 10vh);
+    height: calc(1000px + 10vh); 
     top: 50%;
     left: 50%;
     margin-top: -800px;
