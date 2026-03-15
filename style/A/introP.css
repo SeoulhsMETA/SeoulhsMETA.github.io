@@ -1,0 +1,70 @@
+.logo-gear {
+    position: absolute;
+    opacity: 0.8;
+    animation: rotate_img 180s linear infinite;
+    width: clamp(420px, 60vw, 1200px);
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    position: absolute;
+    top: clamp(6%, 10vh, 15%);
+    right: clamp(3%, 5vw, 5%);
+    text-align: left;
+    width: clamp(260px, 40vw, 720px);
+    height: auto;
+    max-height: 70vh;
+}
+
+.title {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+    font-size: clamp(12px, 1.3vw, 22px);
+    padding-bottom: 1%;
+}
+
+.bio {
+    margin: 0;
+    border-bottom: #8c8c8c solid 3px;
+    font-size: clamp(22px, 3vw, 56px);
+    padding-bottom: clamp(18px, 4vh, 50px);
+}
+
+.eventButton {
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    border: 2px solid #c50d0d; 
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #c50d0d;            
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: clamp(180px, 24vw, 260px);
+    height: clamp(44px, 6vw, 64px);
+    margin-top: clamp(18px, 4vh, 50px);
+    font-size: clamp(16px, 2.2vw, 26px);
+    line-height: clamp(44px, 6vw, 64px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    outline: none;                              
+    transition: all 0.3s ease-in-out;          
+}
+
+@media (max-width: 900px) {
+    .text {
+        width: clamp(240px, 80vw, 520px);
+        right: 50%;
+        transform: translateX(50%);
+        text-align: center;
+    }
+
+    .eventButton {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
