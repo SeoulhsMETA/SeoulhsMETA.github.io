@@ -74,7 +74,7 @@
     font-family: 'Do Hyeon', sans-serif;
     font-weight: bold;
     text-align: center;
-    width: min(90%, 340px);
+    width: min(80%, 340px);
     height: 110px;
     margin: 2rem 0 0 0;
     font-size: clamp(34px, 4vw, 25px);
