@@ -12,6 +12,7 @@
     <meta property="og:url" content="https://seoul-meta.com/">
     <meta property="og:image" content="https://raw.githubusercontent.com/SeoulMETA2025/SeoulMETA2025.github.io/main/resources/thumbnail(white).png">
     <meta property="og:description" content="A FREE SPACE FOR CREATION">
+    <meta name="viewport" content="width=1200, user-scalable=yes">
     <!--title-->
     <title>META</title>
     <!-- css -->
@@ -20,21 +21,11 @@
         @import url("style/home.css");
         @import url("style/contentContainer.css");
         @import url("style/linkedIcon.css");
+        /* 데스크탑 스타일만 모두 적용 */
+        @import url("style/desktop/introP.css");
+        @import url("style/desktop/contentP.css");
+        @import url("style/desktop/footerP.css");
 
-        /* for DESKTOP */
-        @import url("style/desktop/introP.css") screen and (min-width: 1024px);
-        @import url("style/desktop/contentP.css") screen and (min-width: 1024px);
-        @import url("style/desktop/footerP.css") screen and (min-width: 1024px);
-
-        /* for TABLET */
-        @import url(style/tablet/introT.css) screen and (min-width:431px) and (max-width:1023px);
-        @import url(style/tablet/contentT.css) screen and (min-width: 431px) and (max-width: 1023px);
-        @import url(style/tablet/footerT.css) screen and (min-width: 431px) and (max-width: 1023px);
-
-        /* for MOBILE */
-        @import url(style/mobile/introM.css) screen and (max-width: 430px);
-        @import url(style/mobile/contentM.css) screen and (max-width: 430px);
-        @import url(style/mobile/footerM.css) screen and (max-width: 430px);
     </style>
 
 

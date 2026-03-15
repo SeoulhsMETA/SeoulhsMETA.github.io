@@ -12,6 +12,7 @@
     <meta property="og:url" content="https://seoul-meta.com/">
     <meta property="og:image" content="https://raw.githubusercontent.com/SeoulMETA2025/SeoulMETA2025.github.io/main/resources/thumbnail(white).png">
     <meta property="og:description" content="새로운 부원이 되어주세요!">
+    <meta name="viewport" content="width=1200, user-scalable=yes">
     <!--title-->
     <title>META 지원하기</title>
     <!-- css -->
@@ -20,14 +21,10 @@
         @import url("style/contentContainer.css");
         @import url("style/linkedIcon.css");
 
-        /* for DESKTOP */
-        @import url("style/desktop/footerP.css") screen and (min-width: 1024px);
-
-        /* for TABLET */
-        @import url(style/tablet/footerT.css) screen and (min-width: 431px) and (max-width: 1023px);
-
-        /* for MOBILE */
-        @import url(style/mobile/footerM.css) screen and (max-width: 430px);
+        /* 데스크탑 스타일만 모두 적용 */
+        @import url("style/desktop/introP.css");
+        @import url("style/desktop/contentP.css");
+        @import url("style/desktop/footerP.css");
         
         .header {
             width: 100%;
