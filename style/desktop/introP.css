@@ -11,14 +11,19 @@
 
 .logo-gear {
     position: absolute;
-    width: min(50%, 600px);
+    width: calc(800px + 10vw);  
+    max-width: 1400px;         
+    min-width: 600px;           
     height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: -400px;         
+    margin-left: -600px;        
     opacity: 0.8;
-    animation: rotate_img 180s linear infinite;
+    animation: rotate_img 180s linear infinite; 
     z-index: 1;
+
 }
 
 .img-btn {
