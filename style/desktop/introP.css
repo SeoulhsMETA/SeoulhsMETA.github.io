@@ -33,7 +33,7 @@
     z-index: 2;
 }
 
-.home .text {
+.text {
     position: absolute;
     right: 5%;
     top: 50%;
@@ -45,14 +45,14 @@
     pointer-events: none;
 }
 
-.home .title {
+.title {
     margin: 0 0 1rem 0;
     color: rgba(255, 255, 255, 0.7);
     font-weight: normal;
     font-size: clamp(14px, 2vw, 24px);
 }
 
-.home .bio {
+.bio {
     margin: 0 0 2rem 0;
     border-bottom: #8c8c8c solid 3px;
     font-size: clamp(24px, 6vw, 60px);
