@@ -90,3 +90,10 @@
 .imageLeft {
     flex-direction: row-reverse;
 }
+
+.smallImage {
+    width: 50%;
+    height: auto;
+    max-width: 30%;
+    border-radius: 10px;
+}
