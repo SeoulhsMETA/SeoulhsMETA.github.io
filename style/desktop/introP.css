@@ -17,11 +17,12 @@
     height: auto;
     top: 50%;
     left: 50%;
-    margin-top: -50px;         
+    margin-top: -200px;         
     margin-left: -900px;        
     opacity: 0.8;
     animation: rotate_img 180s linear infinite; 
     z-index: 1;
+
 }
 
 .img-btn {
